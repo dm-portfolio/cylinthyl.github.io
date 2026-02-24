@@ -2,8 +2,9 @@ body {
   background-color: lightgrey;
 }
 .fg {
-  width: 720;
-  height: 720;
-  position: fixed;
-  background-color: #C0C0C0;
+  width: 200px;
+  padding: 20px;
+  background-color: #C0C0C0; /* Foreground color */
+  border-radius: 8px; /* Optional: for rounded corners */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* The shadow property */
 }
