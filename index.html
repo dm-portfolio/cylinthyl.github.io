@@ -8,12 +8,13 @@
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="browser-window">
             <div class="header-bar">
-                <div class="controls"><span class="control close"></span><span class="control minimize"></span><span class="control maximize"></span></div>
-                <div class="address-bar"><input type="text" value="https://www.example.com" readonly></div>
+                <div class="controls"></div>
+                <div class="address-bar"><input type="text" value="https://dm-portfolio.github.io" readonly></div>
             </div>
             <div class="tab-container">
-                <button class="tab-button active" onclick="openTab(event, 'tab1')">Tab 1</button>
-                <button class="tab-button" onclick="openTab(event, 'tab2')">Tab 2</button>
+                <button class="tab-button active" onclick="openTab(event, 'home')">Home</button>
+                <button class="tab-button" onclick="openTab(event, 'info')">Info</button>
+                <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
             </div>
             <div id="tab1" class="tab-content active">Content 1</div>
             <div id="tab2" class="tab-content">Content 2</div>
