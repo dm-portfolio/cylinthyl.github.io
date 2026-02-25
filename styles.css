@@ -57,7 +57,7 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
-.fg-strip {
+.fg-bar {
   position: absolute;
   display: flex;
   width: 100%;
