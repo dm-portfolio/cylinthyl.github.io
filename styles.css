@@ -3,13 +3,15 @@
 
 html, body { height: 100%; }
 body {
+  display: grid;
+  place-items: center;
   background: radial-gradient(rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
 }
 
 .ocean {
   height: 5%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background: #015871;
@@ -45,8 +47,6 @@ body {
   }
 }
 .fg-tab {
-  display: grid;
-  place-items: center;
   width: 720px;
   padding: 20px;
   background-color: #C0C0C0; /* Foreground color */
