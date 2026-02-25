@@ -1,4 +1,4 @@
-# dm-portfolio ![](https://geps.dev/progress/15?barColor=99CCFF)
+# dm-portfolio ![](https://geps.dev/progress/17?barColor=99CCFF)
 My personal website portfolio!
 
 All code is made by me, a less-than-average programmer.
