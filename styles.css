@@ -60,6 +60,13 @@ body {
   margin-bottom: auto;
   /* Shorthand: margin: 0 auto; */
 }
+.fg-strip {
+  width: 20px;
+  padding: 20px;
+  background-color: #808080;
+  background-radius: 8px;
+}
+
 #twFont {
   font-family: "Courier New", Courier, monospace;
   font-size: 17px;
