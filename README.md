@@ -1,19 +1,18 @@
-# dm-portfolio ![](https://geps.dev/progress/17?barColor=99CCFF)
+# DM Portfolio ![](https://geps.dev/progress/17?barColor=99CCFF)
 My personal website portfolio!
 
-All code is made by me, a less-than-average programmer.
+All code is made by me, a less-than-average programmer, probably with some help from google
 
 [Web Portfolio Link](https://dm-portfolio.github.io/)
 
-> [!IMPORTANT]
-> I'm kind of stupid, and I didn't really pay well attention in some of my CS classes, so I'm still figuring out some things. I've seen some things about people attempting to keep up domains? so I'm not sure how long this website will work. Here's to hoping! 🤞
+> [!NOTE]
+> I'm still learning some things, & I've heard things about people attempting to keep up their domains, so I'm not sure what that's all about yet. Here's to hoping my website works for a while. 🤞
 
 ## 📝 Documentation
 
-**2.24.26** **-** Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead.
+**2.24.26** **-** Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead. Also added little images with sounds when you click on them.
 
 ## 📜 Versions
-
 #### v0.0.0 -
 base website made.
 #### v0.0.1 -
