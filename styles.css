@@ -44,6 +44,7 @@ body {
   }
 }
 .fg-tab {
+  position: absolute;
   width: 720px;
   padding: 20px;
   background-color: #C0C0C0; 
@@ -64,7 +65,7 @@ body {
   top: 0;
   left: 0;
   background-color: #808080;
-  border-radius: 8px;
+  border-radius: 3px;
   border: 1 solid;
 }
 
