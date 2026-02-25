@@ -12,6 +12,8 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.24.26** **-** Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead. Also added little images with sounds when you click on them.
 
+**2.25.26** **-** 
+
 ## 📜 Versions
 #### v0.0.0 -
 base website made.
