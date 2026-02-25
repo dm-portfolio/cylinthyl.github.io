@@ -6,53 +6,30 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body bgcolor="#6B6B6B" bgproperties="fixed">
-        <div class="fg-tab">
-            <div class="fg-bar">‎ </div>
-            <script>
-                function playAudio1() {
-                    var audio = document.getElementById("audioPlayer1");
-                    audio.play();
-                }
-                function playAudio2() {
-                    var audio = document.getElementById("audioPlayer2");
-                    audio.play();
-                }
-            </script>
-            <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" alt="Click Me" id="playButton" style="cursor: pointer;" onclick="playAudio1()">
-            
-            <!-- Audio element (hidden) -->
-            <audio id="audioPlayer1">
-                <source src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/trumpet.mp3?raw=true" type="audio/mpeg">
-            </audio>
-            <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" alt="Click Me" id="playButton" style="cursor: pointer;" onclick="playAudio2()">
-            
-            <!-- Audio element (hidden) -->
-            <audio id="audioPlayer2">
-                <source src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/apirateisfree.mp3?raw=true" type="audio/mpeg">
-            </audio>
-            <div id="twFont">This is a test message. If you can see this, I'm an awesome coder. and I'm handsome. and totally buff. and 6'5"</div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont">WHO AM I?</div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont">I am a very bad programmer. you can tell from how bad this website is.</div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont"></div><br>
-            <div id="twFont">shoutout to my mom :)</div>
+        <div class="browser-window">
+            <div class="header-bar">
+                <div class="controls"><span class="control close"></span><span class="control minimize"></span><span class="control maximize"></span></div>
+                <div class="address-bar"><input type="text" value="https://www.example.com" readonly></div>
+            </div>
+            <div class="tab-container">
+                <button class="tab-button active" onclick="openTab(event, 'tab1')">Tab 1</button>
+                <button class="tab-button" onclick="openTab(event, 'tab2')">Tab 2</button>
+            </div>
+            <div id="tab1" class="tab-content active">Content 1</div>
+            <div id="tab2" class="tab-content">Content 2</div>
+        </div>
         </div>
         <div class="ocean">
           <div class="wave"></div>
           <div class="wave wave2"></div>
         </div>
+        <script>
+            function openTab(evt, tabName) {
+                document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+                document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                document.getElementById(tabName).style.display = 'block';
+                evt.currentTarget.classList.add('active');
+            }
+        </script>
     </body>
 </html>
