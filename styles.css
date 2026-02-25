@@ -79,9 +79,11 @@ body {
 .tab-button {
   padding: 10px;
   cursor: pointer;
+  border: none;
 }
 .tab-button.active {
   background: #f1f1f1;
+  border: none;
 }
 .tab-content {
   padding: 20px;
