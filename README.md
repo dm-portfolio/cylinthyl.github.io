@@ -17,4 +17,11 @@ All code is made by me, a less-than-average programmer.
 #### v0.0.0 -
 base website made.
 #### v0.0.1 -
+added foreground div box<br>
 added spin.gif to repository and website
+#### v0.0.2 -
+added trumpet.mp3 to repository and website
+#### v0.0.3 -
+added pirate.gif to repository and website
+#### v0.0.4 - 
+added apirateisfree.mp3 to repository and website
