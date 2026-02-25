@@ -7,7 +7,7 @@ body {
   background-color: #C0C0C0; /* Foreground color */
   border-radius: 8px; /* Optional: for rounded corners */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* The shadow property */
-  width: 50%; /* A specific width is required */
+  width: 90%; /* A specific width is required */
   margin-left: auto;
   margin-right: auto;
   /* Shorthand: margin: 0 auto; */
