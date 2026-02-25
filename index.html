@@ -8,24 +8,28 @@
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="fg-tab">
             <script>
-                function playAudio() {
-                    var audio = document.getElementById("audioPlayer");
+                function playAudiotrumpet() {
+                    var audio = document.getElementById("audioPlayer1");
+                    audio.play();
+                }
+                function playAudioapirateisfree() {
+                    var audio = document.getElementById("audioPlayer2");
                     audio.play();
                 }
             </script>
 
             <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudio()">
+            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudiotrumpet()">
             
             <!-- Audio element (hidden) -->
-            <audio id="audioPlayer">
+            <audio id="audioPlayer1">
                 <source src="trumpet.mp3" type="audio/mpeg">
             </audio>
-                        <!-- Image acting as a button -->
-            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudio()">
+            <!-- Image acting as a button -->
+            <img src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/pirate.gif?raw=true" alt="Play Sound" id="playButton" style="cursor: pointer;" onclick="playAudioapirateisfree()">
             
             <!-- Audio element (hidden) -->
-            <audio id="audioPlayer">
+            <audio id="audioPlayer2">
                 <source src="apirateisfree.mp3" type="audio/mpeg">
             </audio>
             <div id="twFont">This is a test message. If you can see this, I'm an awesome coder. and I'm handsome. and totally buff. and 6'5"</div>
