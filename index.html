@@ -7,67 +7,64 @@
     </head>
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="ocean">
-            <div class="wave"></div>
+                <div class="wave"></div>
+            <div class="browser-window">
+                <div class="header-bar">
+                    <div class="controls"></div>
+                    <div class="address-bar"><input type="text" value="https://dm-portfolio.github.io" readonly></div>
+                </div>
+                <div class="tab-container">
+                    <button class="tab-button active" onclick="openTab(event, 'home')">Home</button>
+                    <button class="tab-button" onclick="openTab(event, 'info')">Info</button>
+                    <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
+                    <button class="tab-button" onclick="openTab(event, 'work')">Work</button>
+                    <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+                </div>
+                
+                <div id="home" class="tab-content active">
+                    <txt id="twHeader">About Me:</txt>
+                    <br>
+                    <txt id="twFont">Hobby Programmer studying Computer Science</txt><br>
+                    <br>
+                    <txt id="twFont">I usually switch between a lot of hobbies, but I like to stick with a few:</txt><br>
+                    <br>
+                    <txt id="twFont">›</txt><txt id="twSmall"> Programming</txt>
+                </div>
+    
+                
+                <div id="info" class="tab-content">
+                    <txt id="twHeader">What is this website?</txt><br>
+                    <br>
+                    <txt id="twFont">This website is made for all my business inquiries, and was mostly a proof of skill for myself. This can also be used as a way to show off my skills to recruiters.</txt>
+                </div>
+    
+                
+                <div id="fun" class="tab-content">
+                    <txt id="twFont">Fun widgets go here.</txt>
+                </div>
+    
+                
+                <div id="work" class="tab-content">
+                    <div class="notice-outset">
+                        <txt id="twSmall">For work offers, please contact me through my work email.</txt>
+                    </div>
+                    <br>
+                    <txt id="twHeader">What I know:</txt><br>
+                    <div class="inset">
+                        <div class="outset">HTML</div>
+                        <div class="outset">CSS</div>
+                    </div>
+                </div>
+    
+                
+                <div id="contact" class="tab-content">
+                    <txt id="twFont">I don't currently have a work email set up, but when I do it will be on this page.</txt>
+                </div>
+                
+            </div>
             <div class="wave wave2"></div>
         </div>
-        <div class="browser-window">
-            <div class="header-bar">
-                <div class="controls"></div>
-                <div class="address-bar"><input type="text" value="https://dm-portfolio.github.io" readonly></div>
-            </div>
-            <div class="tab-container">
-                <button class="tab-button active" onclick="openTab(event, 'home')">Home</button>
-                <button class="tab-button" onclick="openTab(event, 'info')">Info</button>
-                <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
-                <button class="tab-button" onclick="openTab(event, 'work')">Work</button>
-                <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
-            </div>
-            
-            <div id="home" class="tab-content active">
-                <txt id="twHeader">About Me:</txt>
-                <br>
-                <txt id="twFont">Hobby Programmer studying Computer Science</txt><br>
-                <br>
-                <txt id="twFont">I usually switch between a lot of hobbies, but I like to stick with a few:</txt><br>
-                <br>
-                <txt id="twFont">›</txt><txt id="twSmall"> Programming</txt>
-            </div>
-
-            
-            <div id="info" class="tab-content">
-                <txt id="twHeader">What is this website?</txt><br>
-                <br>
-                <txt id="twFont">This website is made for all my business inquiries, and was mostly a proof of skill for myself. This can also be used as a way to show off my skills to recruiters.</txt>
-            </div>
-
-            
-            <div id="fun" class="tab-content">
-                <txt id="twFont">Fun widgets go here.</txt>
-            </div>
-
-            
-            <div id="work" class="tab-content">
-                <div class="notice-outset">
-                    <txt id="twSmall">For work offers, please contact me through my work email.</txt>
-                </div>
-                <br>
-                <txt id="twHeader">What I know:</txt><br>
-                <div class="inset">
-                    <div class="outset">HTML</div>
-                    <div class="outset">CSS</div>
-                </div>
-            </div>
-
-            
-            <div id="contact" class="tab-content">
-                <txt id="twFont">I don't currently have a work email set up, but when I do it will be on this page.</txt>
-            </div>
-            
-        </div>
-        </div>
-        <div class="ocean">
-            <div class="wave wave2"></div>
-        </div>
+        
         <script>
             function openTab(evt, tabName) {
                 document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
