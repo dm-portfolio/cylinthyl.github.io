@@ -12,7 +12,7 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.24.26** **-** Website works! Couldn't find a way to host a website for the longest time, so figuring out about github pages fulfilled that lifelong dream of mine to make my own working website. Working on base design so far, more to come in the future. LOTS of ideas ahead. Also added little images with sounds when you click on them.
 
-**2.25.26** **-** Website day 2. Found a CSS wave animation online, later might make a light-mode and dark-mode toggle that changes the color of the waves and everything else. Foreground tab actually looks good now, since I added the bar at the top. Changed the div up, now it looks like a real browser window.
+**2.25.26** **-** Website day 2. Found a CSS wave animation online, later might make a light-mode and dark-mode toggle that changes the color of the waves and everything else. Foreground tab actually looks good now, since I added the bar at the top. Changed the div up, now it looks like a real browser window. There was a LOT done today. Next step is finishing touches, music, and a light-mode/dark-mode toggle.
 
 ## 📜 Versions
 #### v0.0.0 -
@@ -35,3 +35,5 @@ added foreground tab bar.<br>
 positioned foreground tab bar at the top of the foreground tab
 #### v0.2.0 -
 changed foreground design.
+#### v0.3.0 -
+finished up basic info and tabs.
