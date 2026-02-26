@@ -93,6 +93,9 @@ body {
 .tab-content.active {
   display: block;
 }
+.notice {
+  border: 2px outset;
+}
 #twFont {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
