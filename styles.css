@@ -12,7 +12,6 @@ body {
   bottom: 0;
   left: 0;
   background: #015871;
-  z-index: 2;
 }
 
 .wave {
@@ -51,7 +50,6 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   overflow: hidden;
-  z-index: 2;
 }
 .header-bar {
   display: flex;
