@@ -103,6 +103,7 @@ body {
 }
 .inset {
   display: flex;
+  justify-content: center;
   border: 4px inset;
 }
 .outset {
