@@ -110,6 +110,7 @@ body {
 .outset {
   outline: 4px outset #f1f1f1;
   border-radius: 1px;
+  margin: 10px;
 }
 #twFont {
   font-family: "Courier New", Courier, monospace;
