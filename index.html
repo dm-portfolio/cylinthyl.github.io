@@ -4,7 +4,7 @@
         <title>Dillan's Portfolio</title>
         <link rel="icon" href="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/Icon.png?raw=true">
         <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body bgcolor="#6B6B6B" bgproperties="fixed">
         <div class="browser-window">
@@ -42,7 +42,7 @@
     
                 
             <div id="fun" class="tab-content">
-                <txt id="twFont">Fun widgets go here.</txt>
+                <img class="outset" id="widget1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/video/spin.gif?raw=true" style="cursor: pointer;">
             </div>
     
                 
@@ -79,6 +79,9 @@
                 
         </div>
         </div>
+
+        <audio id="audio1" src="https://github.com/dm-portfolio/dm-portfolio.github.io/blob/main/resources/audio/trumpet.mp3?raw=true"></audio>
+        
             <script>
             function openTab(evt, tabName) {
                 document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
@@ -94,14 +97,22 @@
             if (typeof url !== "string" || url.trim() === "") {
                 alert("Invalid URL");
                 return;
+                }
+                // Open in new tab or same tab based on parameter
+                if (newTab) {
+                    window.open(url, "_blank"); // New tab
+                } else {
+                    window.location.href = url; // Same tab
+                }
             }
-            // Open in new tab or same tab based on parameter
-            if (newTab) {
-                window.open(url, "_blank"); // New tab
-            } else {
-                window.location.href = url; // Same tab
-            }
-        }
+            // Select the audio element and clickable area
+            const audio1 = document.getElementById('audio1');
+            const widget1 = document.getElementById('widget1');
+            
+            // Add click event listener to play audio
+            widget1.addEventListener('click', () => {
+            audio1.play();
+            });
         </script>
         <div class="ocean"> 
             <div class="wave"></div>
