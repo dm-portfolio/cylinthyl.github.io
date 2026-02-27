@@ -1,4 +1,4 @@
-# DM Portfolio ![](https://geps.dev/progress/80?barColor=99CCFF)
+# DM Portfolio ![](https://geps.dev/progress/80?barColor=8f8f8f)
 My personal website portfolio!
 
 All code is made by me, a less-than-average programmer, probably with some help from google
@@ -16,4 +16,4 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.26.26** **-** Website day 3! So close to finishing, but I don't have a work email set up yet, so the contact tab doesn't have any contact info yet. Worked on the "Work" tab that lists my experience and education, and made css classes called "notice-outset", "outset", and "inset" for future use.
 
-**2.27.26** **-** Day 4. Love my website so far, but I need to figure out mobile support.
+**2.27.26** **-** Day 4. Love my website so far, but I need to figure out mobile support. Overall super proud of myself for making my childhood dream come true <3.
