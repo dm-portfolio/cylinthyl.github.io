@@ -28,6 +28,7 @@ body {
 .wave:nth-of-type(2) {
   top: -168px;
   animation: swell 4s ease infinite;
+  animation: wave 6s ease infinite;
   opacity: 1;
 }
 
