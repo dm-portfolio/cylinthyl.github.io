@@ -125,8 +125,11 @@ body {
   margin: 5px;
 }
 .outset {
+  display: inline-flex;
   outline: 4px outset #f1f1f1;
   border-radius: 1px;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
   margin: 7px;
 }
