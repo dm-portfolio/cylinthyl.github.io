@@ -45,7 +45,7 @@ body {
 }
 .browser-window {
   background-color: #ffffff;
-  width: 600px;
+  width: 49%;
   height: 85%;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
