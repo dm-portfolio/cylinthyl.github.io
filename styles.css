@@ -46,7 +46,7 @@ body {
 }
 .browser-window {
   background-color: #ffffff;
-  width: 600px;
+  width: 620px;
   height: 85%;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
@@ -77,7 +77,8 @@ body {
   font-size: 15px;
   letter-spacing: 0px;
   word-spacing: 0px;
-  background-color: #ff0000;
+  background-color: #e0e0e0;
+  border-style: solid 2px #000000;
   color: #000000;
   font-weight: normal;
   text-decoration: none;
@@ -124,10 +125,9 @@ body {
   align-items: center;
   justify-content: center;
   border: 4px inset;
-  margin: 5px;
 }
 .outset {
-  display: inline-flex;
+  display: flex;
   outline: 4px outset #f1f1f1;
   border-radius: 1px;
   align-items: center;
@@ -137,7 +137,7 @@ body {
 }
 #twLink {
   font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0;
   word-spacing: 0;
   color: #2E7C8F;
@@ -174,7 +174,7 @@ body {
 }
 #twSmall {
   font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0px;
   word-spacing: 0px;
   color: #000000;

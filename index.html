@@ -14,13 +14,14 @@
                     <txt id="twFont">https://dm-portfolio.github.io</txt>
                 </div>
             </div>
+        
             <div class="tab-container">
                 <button class="tab-button active" onclick="openTab(event, 'home')">Home</button>
                 <button class="tab-button" onclick="openTab(event, 'info')">Info</button>
-                <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
                 <button class="tab-button" onclick="openTab(event, 'work')">Work</button>
                 <button class="tab-button" onclick="openTab(event, 'tools')">Tools</button>
                 <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+                <button class="tab-button" onclick="openTab(event, 'fun')">Fun</button>
             </div>
             
             <div id="home" class="tab-content active">
@@ -64,28 +65,30 @@
                 <txt id="twHeader">&ensp;&ensp;Education:</txt><br>
                 <div class="inset">
                     <div class="outset" id="twSmall">5-Week RCSJ VB Class (Online)</txt>
-                </div>
+                    </div>
                 </div>
                 <txt id="twHeader">&ensp;&ensp;Experience:</txt><br>
                 <div class="inset">
                     <div class="outset" id="twSmall">N/A</txt>
                     </div>
+                </div>
+            </div>
+        
+            
+            <div id="tools" class="tab-content">
+                <txt id="twHeader">Tools I've used:</txt><br>
+                <div class="inset">
+                    <div class="outset"><txt id="twFont">VS Code</txt></div>
+                    <div class="outset"><txt id="twFont">VS Community 2026</txt></div>
+                    <div class="outset"><txt id="twFont">Procreate</txt></div>
+                </div>
+            </div>
+            
+
+            <div id="contact" class="tab-content">
+                <txt id="twFont">I don't currently have a work email set up, but when I do it will be on this page.</txt>
             </div>
         </div>
-            
-        <div id="tools" class="tab-content">
-            <txt id="twHeader">Tools I've used:</txt><br>
-            <div class="inset">
-                <div class="outset"><txt id="twFont">VS Code</txt></div>
-                <div class="outset"><txt id="twFont">VS Community 2026</txt></div>
-                <div class="outset"><txt id="twFont">Procreate</txt></div>
-            </div>
-        </div>
-                
-        <div id="contact" class="tab-content">
-            <txt id="twFont">I don't currently have a work email set up, but when I do it will be on this page.</txt>
-        </div>
-            
     </div>
 </div>
 
@@ -122,7 +125,7 @@
             widget1.addEventListener('click', () => {
             audio1.play();
             });
-        </script>
+            </script>
         <div class="ocean"> 
             <div class="wave"></div>
             <div class="wave wave2"></div>
