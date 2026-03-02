@@ -18,4 +18,4 @@ All code is made by me, a less-than-average programmer, probably with some help 
 
 **2.27.26** **-** Day 4. Love my website so far, but I need to figure out mobile support. Overall super proud of myself for making my childhood dream come true <3.
 
-**3.1.26** **-** Happy march! having been feeling too well so I took a break, also because there was nothing really to change. I added an inset to the "Fun" tab, changed the structure of the code too. I also found out how to use codespaces recently! I added an extension that lets me live preview my changes, so that's nice. And I added back the pirate widget! Long live Lazytown <3.
+**3.1.26** **-** Happy march! haven't been feeling too well so I took a break, also because there was nothing really to change. I added an inset to the "Fun" tab, changed the structure of the code too. I also found out how to use codespaces recently! I added an extension that lets me live preview my changes, so that's nice. And I added back the pirate widget! Long live Lazytown <3.
